@@ -1,0 +1,21 @@
+.container {
+  margin: 0 auto;
+  width: 50%; }
+  .container .bars .bar {
+    margin: 10px 0;
+    width: 100%;
+    background-color: #eee;
+    border: 1px solid #086186;
+    position: relative; }
+    .container .bars .bar .progress {
+      background-color: #84b7cc;
+      height: 30px;
+      width: 0%; }
+    .container .bars .bar .amount {
+      position: absolute;
+      left: 45%;
+      top: 5px; }
+  .container .controls .bar-selector {
+    display: inline-block; }
+  .container .controls .buttons {
+    display: inline-block; }
